@@ -101,3 +101,65 @@
     text-align: center;
     margin-top: 1.3rem;
 }
+
+// FOOTER
+
+.big-cont-main {
+    background-image: url(../img/footer-bg.jpg);
+    background-size: cover;
+}
+
+.footer {
+    display: flex;
+}
+
+.max-container {
+    height: 400px;
+    display: flex;
+    gap: 2rem;
+    position: relative;
+}
+
+.list {
+    margin-top: 1rem;
+    color: white;
+    list-style: none;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.bar-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(48, 48, 48);
+    height: 90px;
+}
+
+.button-footer {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    margin-left: 8rem;
+    height: 40px;
+    width: 150px;
+    border: 3px solid rgb(2, 130, 249);
+}
+
+.cont-icon {
+    height: 30px;
+    display: flex;
+    gap: 0.7rem;
+}
+
+.title-icon {
+    color: rgb(2, 130, 249);
+}
+
+.bg-image {
+    height: 446px;
+    position: relative;
+    top: -254px;
+    right: -350px;
+}
