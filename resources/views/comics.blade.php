@@ -35,25 +35,140 @@
         <div class="black">
                     {{-- Card --}}
                 @foreach ($comics as $comic)
-                <div class="card-cont">
-                     <div class="container-image">
-                        <img class="cards" src="{{$comic["image"]}}" :alt="title">
+                <div class="card">
+                    <div class="container-image">
+                        <img class="cards" src="{{$comic["image"]}}" alt="title">
                     </div>
                     <div class="text-container">
-                       <div>{{$comic['title']}}</div>
-                       <div>{{$comic['price']}}</div>
-                       <div>{{$comic['series']}}</div>
+                        <div>{{$comic['title']}}</div>
+                        <div>{{$comic['price']}}</div>
+                        <div>{{$comic['series']}}</div>
                     </div>
-                        
+                </div>
+
+                <div class="card">
+                    <div class="container-image">
+                        <img class="cards" src="{{$comic["image"]}}" alt="title">
                     </div>
-                    @endforeach
-                    
-        <div class="card">
-            <div class="container-image"></div>
-            <div class="text-container">
-        </div>
-            
-        </div>
+                    <div class="text-container">
+                        <div>{{$comic['title']}}</div>
+                        <div>{{$comic['price']}}</div>
+                        <div>{{$comic['series']}}</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="container-image">
+                        <img class="cards" src="{{$comic["image"]}}" alt="title">
+                    </div>
+                    <div class="text-container">
+                        <div>{{$comic['title']}}</div>
+                        <div>{{$comic['price']}}</div>
+                        <div>{{$comic['series']}}</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="container-image">
+                        <img class="cards" src="{{$comic["image"]}}" alt="title">
+                    </div>
+                    <div class="text-container">
+                        <div>{{$comic['title']}}</div>
+                        <div>{{$comic['price']}}</div>
+                        <div>{{$comic['series']}}</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="container-image">
+                        <img class="cards" src="{{$comic["image"]}}" alt="title">
+                    </div>
+                    <div class="text-container">
+                        <div>{{$comic['title']}}</div>
+                        <div>{{$comic['price']}}</div>
+                        <div>{{$comic['series']}}</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="container-image">
+                        <img class="cards" src="{{$comic["image"]}}" alt="title">
+                    </div>
+                    <div class="text-container">
+                        <div>{{$comic['title']}}</div>
+                        <div>{{$comic['price']}}</div>
+                        <div>{{$comic['series']}}</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="container-image">
+                        <img class="cards" src="{{$comic["image"]}}" alt="title">
+                    </div>
+                    <div class="text-container">
+                        <div>{{$comic['title']}}</div>
+                        <div>{{$comic['price']}}</div>
+                        <div>{{$comic['series']}}</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="container-image">
+                        <img class="cards" src="{{$comic["image"]}}" alt="title">
+                    </div>
+                    <div class="text-container">
+                        <div>{{$comic['title']}}</div>
+                        <div>{{$comic['price']}}</div>
+                        <div>{{$comic['series']}}</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="container-image">
+                        <img class="cards" src="{{$comic["image"]}}" alt="title">
+                    </div>
+                    <div class="text-container">
+                        <div>{{$comic['title']}}</div>
+                        <div>{{$comic['price']}}</div>
+                        <div>{{$comic['series']}}</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="container-image">
+                        <img class="cards" src="{{$comic["image"]}}" alt="title">
+                    </div>
+                    <div class="text-container">
+                        <div>{{$comic['title']}}</div>
+                        <div>{{$comic['price']}}</div>
+                        <div>{{$comic['series']}}</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="container-image">
+                        <img class="cards" src="{{$comic["image"]}}" alt="title">
+                    </div>
+                    <div class="text-container">
+                        <div>{{$comic['title']}}</div>
+                        <div>{{$comic['price']}}</div>
+                        <div>{{$comic['series']}}</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="container-image">
+                        <img class="cards" src="{{$comic["image"]}}" alt="title">
+                    </div>
+                    <div class="text-container">
+                        <div>{{$comic['title']}}</div>
+                        <div>{{$comic['price']}}</div>
+                        <div>{{$comic['series']}}</div>
+                    </div>
+                </div>
+
+                
+                @endforeach
         </div>
         <div class="color-cont">
             <div class="max-container">
