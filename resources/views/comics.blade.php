@@ -35,9 +35,9 @@
         <div class="black">
                     {{-- Card --}}
                 @foreach ($comics as $comic)
-                <div class="card">
+                <div class="card-cont">
                      <div class="container-image">
-                        <img :src="{{$comic["image"]}}" :alt="title">
+                        <img class="cards" src="{{$comic["image"]}}" :alt="title">
                     </div>
                     <div class="text-container">
                        <div>{{$comic['title']}}</div>
