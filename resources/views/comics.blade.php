@@ -24,6 +24,7 @@
                     <li>NEWS</li>
                     <li>SHOP</li>
             </ul>
+            
             </div>  
         </div>
         {{-- MAIN --}}
