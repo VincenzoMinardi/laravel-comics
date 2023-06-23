@@ -7,6 +7,7 @@
         @vite('resources/js/app.js')
     </head>
     <body>
+        
         {{-- HEADER --}}
         <div class="max-container">
             <div class="nav-bar">
@@ -23,8 +24,8 @@
                     <li>FANS</li>
                     <li>NEWS</li>
                     <li>SHOP</li>
-            </ul>
-            
+                </ul>
+
             </div>  
         </div>
         {{-- MAIN --}}
@@ -33,6 +34,20 @@
         </div>
         <div class="black">
                     {{-- Card --}}
+                @foreach ($comics as $comic)
+                <div class="card">
+                     <div class="container-image">
+                        <img :src="{{$comic["image"]}}" :alt="title">
+                    </div>
+                    <div class="text-container">
+                       <div>{{$comic['title']}}</div>
+                       <div>{{$comic['price']}}</div>
+                       <div>{{$comic['series']}}</div>
+                    </div>
+                        
+                    </div>
+                    @endforeach
+                    
         <div class="card">
             <div class="container-image"></div>
             <div class="text-container">
