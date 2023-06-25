@@ -59,7 +59,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 200px;
+    height: 260px;
+
     color: white;
 }
 
@@ -111,10 +112,10 @@
 
 .footer {
     display: flex;
+    height: 500px;
 }
 
 .max-container {
-    height: 400px;
     display: flex;
     gap: 2rem;
     position: relative;
@@ -135,7 +136,7 @@
     align-items: center;
     justify-content: space-around;
     background-color: rgb(48, 48, 48);
-    height: 90px;
+    height: 235px;
 }
 
 .button-footer {
@@ -161,5 +162,5 @@
     height: 446px;
     position: relative;
     top: -254px;
-    right: -350px;
+    right: -550px;
 }
